@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+
+    <h2>Registration Form for Addmision</h2>
+
+    <form>
+
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <!-- Age -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <br>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+        <!-- Skills -->
+        <label>Select your skills:</label>
+        <br>
+
+        <input type="checkbox" id="Mongo DB" name="skills" value="Mongo DB">
+        <label for="html">Mongo DB</label>
+
+        <input type="checkbox" id="Express JS" name="skills" value="Express JS">
+        <label for="css">Express JS</label>
+
+        <input type="checkbox" id="React JS" name="skills" value="React JS">
+        <label for="javascript">React JS</label>
+
+        <br><br>
+
+        <!-- Country -->
+        <label for="country">Country:</label>
+
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select>
+
+        <br><br>
+
+        <!-- About Yourself -->
+        <label for="about">About Yourself:</label>
+        <br>
+        <textarea id="about" name="about" rows="5" cols="30"></textarea>
+
+        <br><br>
+
+        <!-- Upload Resume -->
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume">
+
+        <br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
