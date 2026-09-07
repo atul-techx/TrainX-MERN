@@ -1,24 +1,40 @@
+/* universal Selecter */
+
 *{
     padding: 0%;
     margin: 0%;
 }
 
-/* Learn about !important */
+/* Main Heading */
+h1{
+    font-size: 50px;
+}
+
+nav{
+    text-align: center;
+}
+
+/* For Body element */
 
 body{
-    font-size: 50px;
+    /* font-size: 10px; */
     /* color: aqua; */
     border-radius: 2px;
     border-color: black;
     background-color: white;
 }
 
+/* Div Conatiner style */
 .box{
-    text-align: center;
+    font-size: 10;
+    /* text-align: center; */
     font-family: 'Courier New', Courier, monospace;
-    padding: 4px;
-    margin: 4px;
+    padding: 20px;
+    /* margin: 4px; */
+    margin-right: 20cm;
+    margin-top: 1.5cm;
     border-radius: 2px;
     border-color: black;
     background-color: aquamarine;
 }
+
