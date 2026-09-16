@@ -19,12 +19,12 @@ function calculateGrade(score) {
 }
 
 let number = 85; 
+var hasExtraCredit = true;
+
+if(hasExtraCredit){
+    number += 5;
+}
+
 let finalGrade = calculateGrade(number);
 
-console.log("Score: " + number + " -> Grade: " + finalGrade); 
-
-
-// console.log(calculateGrade(95)); 
-// console.log(calculateGrade(72));  
-// console.log(calculateGrade(55));  
-// console.log(calculateGrade(105)); 
+console.log("Your Score is : " + number + "\nGrade is : " + finalGrade);
