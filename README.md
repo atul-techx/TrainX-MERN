@@ -1,23 +1,27 @@
-# HTML & CSS Practice
+# HTML, CSS & JavaScript Practice
 
-This repository contains my practice work and beginner projects while learning web development. It includes examples of HTML forms, CSS styling, semantic HTML elements, and JavaScript concepts.
+Welcome to my frontend learning repository! 🚀
 
-## Topics Covered
+This repository contains my hands-on practice with HTML, CSS, and JavaScript. I am building my web development fundamentals through small examples, coding exercises, and practical implementations.
 
-- HTML basics and page structure
-- Forms and input elements
+## 🛠️ Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+</p>
+
+## 📚 What I'm Practicing
+
+- HTML page structure and semantic elements
+- Forms, input fields, and basic form design
 - Inline CSS and external stylesheets
-- HTML Section and Article elements
-- JavaScript basics and library management concepts
-- Shipping-related questions and grade-related logic
+- JavaScript logic and problem-solving
+- Grade-related logic and library management exercises
+- Shipping-related coding exercises
 
-## Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-
-## Repository Structure
+## 📂 Project Structure
 
 ```text
 HTML-CSS-Portfolio/
@@ -26,29 +30,33 @@ HTML-CSS-Portfolio/
 ├── Grade.js
 ├── Inline.html
 ├── Library.js
+├── README.md
 ├── Shiping.js
 ├── newform.html
 ├── section.html
-├── style.css
-└── README.md
+└── style.css
 ```
 
-## How to Run
+## ▶️ Getting Started
 
-1. Clone this repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/atul-techx/HTML-CSS-Portfolio.git
    ```
-2. Open the project folder in VS Code.
-3. Open any HTML file in your browser to explore the examples.
-4. Run the JavaScript files through an HTML page or a JavaScript environment, as appropriate.
+2. Open the folder in VS Code.
+3. Open any HTML file in your browser.
+4. Run and test the examples to explore the code.
 
-## Learning Goal
+## 🎯 My Goal
 
-The goal of this repository is to strengthen my understanding of frontend fundamentals through hands-on practice and small coding exercises.
+My goal is to strengthen my frontend development skills by writing code, practicing core concepts, and gradually building more interactive web projects.
 
-## Author
+## 👨‍💻 About Me
 
-Atul Gangwar
+I'm Atul Gangwar, currently pursuing B.Tech in Computer Science and Engineering. I enjoy coding, solving problems, and building practical projects while continuously learning new technologies.
 
-GitHub: [@atul-techx](https://github.com/atul-techx)
+🔗 GitHub: [@atul-techx](https://github.com/atul-techx)
+
+---
+
+⭐ If you find this repository useful, feel free to explore the code!
