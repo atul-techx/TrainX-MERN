@@ -1,33 +1,34 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Form</title>
+    <title>Registration Form</title>
 </head>
 
 <body>
 
-    <h2>Registration Form for Addmision</h2>
+    <h2>Registration Form for Admission</h2>
 
     <form>
 
         <!-- Name -->
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
         <br><br>
 
         <!-- Email -->
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
         <br><br>
 
         <!-- Password -->
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
+        <input type="password" id="password" name="password" required>
         <br><br>
 
         <!-- Age -->
         <label for="age">Age:</label>
-        <input type="number" id="age" name="age">
+        <input type="number" id="age" name="age" min="1" max="100">
         <br><br>
 
         <!-- Date of Birth -->
@@ -38,7 +39,8 @@
         <!-- Gender -->
         <label>Gender:</label>
         <br>
-        <input type="radio" id="male" name="gender" value="male" checked>
+
+        <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label>
 
         <input type="radio" id="female" name="gender" value="female">
@@ -53,14 +55,14 @@
         <label>Select your skills:</label>
         <br>
 
-        <input type="checkbox" id="Mongo DB" name="skills" value="Mongo DB">
-        <label for="html">Mongo DB</label>
+        <input type="checkbox" id="mongodb" name="skills" value="MongoDB">
+        <label for="mongodb">MongoDB</label>
 
-        <input type="checkbox" id="Express JS" name="skills" value="Express JS">
-        <label for="css">Express JS</label>
+        <input type="checkbox" id="express" name="skills" value="ExpressJS">
+        <label for="express">Express JS</label>
 
-        <input type="checkbox" id="React JS" name="skills" value="React JS">
-        <label for="javascript">React JS</label>
+        <input type="checkbox" id="react" name="skills" value="ReactJS">
+        <label for="react">React JS</label>
 
         <br><br>
 
@@ -80,13 +82,15 @@
         <!-- About Yourself -->
         <label for="about">About Yourself:</label>
         <br>
-        <textarea id="about" name="about" rows="5" cols="30"></textarea>
+
+        <textarea id="about" name="about" rows="5" cols="30"
+            placeholder="Write about yourself"></textarea>
 
         <br><br>
 
         <!-- Upload Resume -->
         <label for="resume">Upload Resume:</label>
-        <input type="file" id="resume" name="resume">
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
 
         <br><br>
 
