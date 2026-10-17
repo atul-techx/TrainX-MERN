@@ -4,7 +4,7 @@ Welcome to my frontend learning repository! 🚀
 
 This repository contains my hands-on practice with HTML, CSS, and JavaScript. I am building my web development fundamentals through small examples, coding exercises, and practical implementations.
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack 
 
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
