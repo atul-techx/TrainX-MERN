@@ -37,7 +37,8 @@ const myFunction = function(){
     
 }
 
-// Data types of variables ->
+/*
+# Data types of variables ->
 
 console.log(typeof bigNumber);  // bigint
 console.log(typeof Container);  // object
@@ -46,6 +47,63 @@ console.log(typeof newId);  // Symbol
 console.log(typeof myObj);  // object
 console.log(typeof myFunction); // function (object function)
 console.log(typeof heros);  // object
+
+*/
+
+// ++++++++++++++++++++++++++++++++++ Stack and Heap Memory ++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive)  , Heap (Non-Primitive)
+
+let myYoutubeName = "Youtubedotcom"
+
+let anotherYoutubeName = myYoutubeName
+
+anotherYoutubeName = "Googledotcom" // it do not change original value because it have only the copy of that var data in STACK
+
+console.log(myYoutubeName);     // Youtubedotcom
+console.log(anotherYoutubeName);        // Googledotcom
+
+let user1 = {
+    email: "user1@gmail.com",
+    upi: "user1@oksbi"
+
+}
+
+let user2 = user1       // it give refrence of the org variable, so if we change in user2 the value will automaticaly change in user1
+
+user2.email = "atul@gmail.com"
+
+console.log(user1.email);   // ans for both will be same 
+console.log(user2.email);   // because both points to same memory location in HEAP
+
+
+/*
+VISUAL MEMORY MAP OF THIS CODE:
+
+         STACK MEMORY                                   HEAP MEMORY
+    (Stores Primitive values )                  (Stores Non-Primitive Objects)
+┌─────────────────────────────────┐           ┌─────────────────────────────────┐
+│                                 │           │                                 │
+│ ┌─────────────────────────────┐ │           │                                 │
+│ │ user2                       │─┼───────────┼──────────┐                      │
+│ └─────────────────────────────┘ │           │          │                      │
+│ ┌─────────────────────────────┐ │           │          ▼                      │
+│ │ user1                       │─┼───────────┼────► ┌───────────────────────┐  │
+│ └─────────────────────────────┘ │           │      │ {                     │  │
+│ ┌─────────────────────────────┐ │           │      │   email: "atul...",   │  │
+│ │ anotherYoutubeName:         │ │           │      │   upi: "user1@oksbi"  │  │
+│ │ "Googledotcom"              │ │           │      │ }                     │  │
+│ └─────────────────────────────┘ │           │      └───────────────────────┘  │
+│ ┌─────────────────────────────┐ │           │                                 │
+│ │ myYoutubeName:              │ │           │                                 │
+│ │ "Youtubedotcom"             │ │           │                                 │
+│ └─────────────────────────────┘ │           │                                 │
+└─────────────────────────────────┘           └─────────────────────────────────┘
+*/
+
+
+
+
 
 
 
